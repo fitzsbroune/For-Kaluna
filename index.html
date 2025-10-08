@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>confession</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dear Kaluna,</h1>
+
+    <p>
+      Aku tau aku sering ragu dan takut untuk mulai sesuatu yang baru. I was scared to open my heart because I didn’t want to mess up what we already have. Tapi sekarang aku gak mau lagi berlindung dibalik kata belum siap. I want to try — not just for a moment, but to build something real with you. To laugh with you, support you, and wake up every day grateful that you’re by my side.
+    </p>
+
+    <p>
+      If you feel even a little of what I feel, would you give us a chance? Mau gak kamu jadi someone I can grow with — hand in hand, step by step? Whatever your answer, thank you for making me brave enough to say this.
+    </p>
+
+    <div class="signature">
+      <p>With all my heart,</p>
+      <p class="heart">❤</p>
+      <p>Brixton</p>
+    </div>
+  </div>
+  <audio id="bg-music" autoplay loop>
+  <source src="Sheila On 7 - Kita.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  // Agar musik bisa mulai setelah klik pertama (dibutuhkan di HP)
+  document.addEventListener("click", function() {
+    const music = document.getElementById("bg-music");
+    if (music.paused) {
+      music.play();
+    }
+  });
+</script>
+</body>
+</html> 
